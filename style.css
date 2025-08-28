@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.emojis button {
+  font-size: 2rem;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.emojis button:hover {
+  transform: scale(1.2);
+}
+
+textarea {
+  width: 90%;
+  max-width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 1rem;
+}
+
+#save {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#history {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#history li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
