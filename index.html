@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bitácora Emocional</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>¿Cómo te sientes hoy?</h1>
+
+  <div class="emojis">
+    <button data-emoji="😄">😄</button>
+    <button data-emoji="😐">😐</button>
+    <button data-emoji="😢">😢</button>
+    <button data-emoji="😡">😡</button>
+    <button data-emoji="😴">😴</button>
+  </div>
+
+  <textarea id="note" placeholder="Escribe algo si quieres..."></textarea>
+  <button id="save">Guardar</button>
+
+  <h2>Historial</h2>
+  <ul id="history"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
